@@ -578,8 +578,6 @@ int cl_lunar2solar(struct cl_date lunar, struct cl_date *solar)
 	return offset_2_solar(off, solar);
 }
 
-#include <stdio.h>
-
 int cl_get_jieqi(struct cl_date from, int days, int jieqi, struct cl_date *dates, int N)
 {
 	int off;
